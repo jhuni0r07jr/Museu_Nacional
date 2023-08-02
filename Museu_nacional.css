@@ -1,0 +1,281 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: url('img/fundo.png') repeat-x;
+}
+
+header{
+	min-width: 350px;
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+#logo{
+	margin: 0 auto;
+	padding: 20px;
+}
+
+nav{
+	padding-top: 20px;
+	margin: 0 auto;
+}
+
+nav ul{
+	list-style-type: none;
+	display: flex;
+}
+nav li a{
+	padding-left: 5px;
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#Conteiner{
+	width: 100%;
+	margin: 0 auto;
+}
+
+main{
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+	min-width: 320px;
+}
+
+article > h3{
+	font-size: 1em;
+}
+
+
+aside{
+	background: #EAE4DD;
+	width: 30%;	/*CORRETO É 30, ESTOU MEXENDO NO TAMANHO DA IMAGEM DO MUSEO E IMAGEM AO LADO*/
+	margin: 0 auto;	/*TEM QUE MEXER NO TAMANHO DA IMAGENS DO MUSEO LOGO A BAIXO*/
+	margin-right: 20px;
+	height: 60%;
+	float: left;
+}
+
+#Conteudo{
+	border: 1px solid red;
+	width: 65%; /*TAMANHO CORRETO É 60*/
+}
+
+div ol{
+	border: 1px solid red;
+}
+
+.imagens{
+	width: 100%;
+	height: 40%;		/*350px;*/
+	background-size: cover;
+}
+
+.imagens-lateral{
+	width: 100%;
+	height: 90%;
+	background-position: center;
+}
+									/*FOTOS DO HOTEL*/
+#Fotos{
+	width: 99%;
+	margin: 0 auto;
+}
+
+/*#Fotos a{
+	background-image: url('img/fundo-foto.png');
+	background-position: left top;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	min-width: 112px;
+	float: left;
+}*/
+
+#Fotos a{
+	border: 1px solid red;
+	background-image: url('img/fundo-foto.png');
+	background-position: left top;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	min-width: 112px;
+	width: 30%;
+	float: left;
+}
+
+#Fotos img{
+	border: 1px solid red;
+	width: 20%;
+	height: 60%;
+	min-width: 90px;
+	margin-left: 16px;
+	margin-top: 20px;
+
+}
+
+.imagemm{
+	width: 40%; /*TAMANHO CORRETO É 40 E O DE BAIXO É 60*/
+	height: 65%;
+}
+
+section > a{
+	padding-bottom: 40px;
+	padding-right: 10px;
+	min-width: 90px;
+/*	padding-left: 20px;*/
+}
+
+#visita{
+	margin-top: 20px;
+	width: 100%;
+	font-size: 1em;
+	float: left;
+	background: #CDC7B5;
+}
+
+.div_visita{
+	width: 80%;
+	font-size: 100%;
+	padding-left: 0px;
+	text-align: left;
+}
+
+input{
+	width: 40%;
+	text-align: left;
+}
+
+button{
+	color: white;
+	width: 98%;
+	height: 20%;
+	padding: 2.9%;
+	margin-top: 5px;
+	margin-left: 15%;
+	font-weight: 900;
+	font-size: 55%;
+	background: #A86E13;
+	text-transform: uppercase;
+}
+
+div > h2{
+	font-size: 1em;
+}
+
+fieldset{
+	width: 100%;
+	margin: 0 auto;
+	font-size: 100%;
+	border: none;
+}
+
+div > h4{
+	text-align: left;
+	font-size: 2em;
+}
+
+#Fotos > h4{
+	font-size: 1em;
+}
+									/*		POSTAGENS		*/
+#Postagem{
+	width: 100%;
+}
+
+article h3{
+/*	font-size: 0.9em;*/
+	font-size: 85%;
+}
+							/*TAMANHO DE PC*/
+#Mapa{
+	border: 1px solid darkred;
+	width: 40%;
+	height: 90%;
+	margin-left: 15px;
+	float: left;
+}
+
+
+#Video{
+	width: 40%;
+	float: right;
+	background-size: cover;
+}
+iframe{
+	width: 95%;
+	height: 50%;/*170px*/
+	min-height: 320%;
+	display: flex;
+	justify-content: space-between;
+}
+
+									/*		EXPOSIÇÕES		*/
+#exposição a{
+	text-decoration: none;
+}
+
+#exposição a:hover{
+	color: red;
+}
+
+#exposição{
+	width: 100%;
+	padding-top: 20px;
+}
+
+section > h4{
+	color: #517751;
+	font-size: 85%;
+}
+
+section ul{
+	width: 80%;
+	padding-top: 15px;
+	margin: 0 auto;
+	padding-left: 20px;
+}
+
+section li a{
+	color: black;
+	text-transform: unset;
+}
+
+									/* 200 anos	*/
+#_200_anos{
+	padding-top: 20px;
+}
+
+#_200_anos h4{
+	text-transform: uppercase;
+}
+#_200_anos p{
+	padding-top: 15px;
+}
+									/*	RODAPÉ	*/
+footer{
+	width: 97%;
+	color: blue;
+	align-items: center;
+}
+
+footer ul{
+	border: 1px solid red;
+	width: 71%;
+	list-style-type: none;
+	padding-left: 400px;
+	display: flex;
+
+}
+
+li a{
+	text-decoration: none;
+	padding-left: 10px;
+
+}
